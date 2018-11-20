@@ -1,6 +1,6 @@
 def my_select(collection)
   if block_given?
-    collection.select {|itemtem| yield item }
+    collection.select {|item| yield item }
   else
     collection
   end
